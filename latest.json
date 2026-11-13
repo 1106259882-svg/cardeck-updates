@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 12,
-  "versionName": "1.6.1",
-  "url": "https://aka.doubaocdn.com/s/jkXx2QII3d",
-  "sha256": "a2f4be6df712c7f3874fd2fd7d23e225de97803e70010f76b4b475845387ec12",
-  "size": 344740,
-  "note": "修复更新源被 CDN 缓存卡在旧版本：多源尝试取最高版本号",
+  "versionCode": 13,
+  "versionName": "1.6.2",
+  "url": "https://aka.doubaocdn.com/s/Fko2HPGb6F",
+  "sha256": "722730c2d3c92839a126db335dd11fa3c0477c865bef34fd18f5136730016ce7",
+  "size": 348836,
+  "note": "更新源彻底修好：先取最新提交换成不可变地址，CDN 缓存再也卡不住",
   "pubDate": "2026-11-13"
 }
