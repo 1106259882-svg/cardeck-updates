@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 11,
-  "versionName": "1.6.0",
-  "url": "https://aka.doubaocdn.com/s/jGkCFUxWZo",
-  "sha256": "5409e987c556193b9fdc1409cd8897e2a6c2359bc3f1cf1d467f7f88e7532ade",
+  "versionCode": 12,
+  "versionName": "1.6.1",
+  "url": "https://aka.doubaocdn.com/s/jkXx2QII3d",
+  "sha256": "a2f4be6df712c7f3874fd2fd7d23e225de97803e70010f76b4b475845387ec12",
   "size": 344740,
-  "note": "在线应用商店框架：清单对比 + 下载校验 + 面板商店卡片",
+  "note": "修复更新源被 CDN 缓存卡在旧版本：多源尝试取最高版本号",
   "pubDate": "2026-11-13"
 }
