@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 9,
-  "versionName": "1.4.1",
-  "url": "https://aka.doubaocdn.com/s/dgyRuA8vo6",
-  "sha256": "074f40d29a5f36cf347433e51bbf32b6cfa2471f2a372092bc64c22ba8748ba3",
-  "size": 70308,
-  "note": "赛博风界面 + 动画 + 一键在线更新",
+  "versionCode": 10,
+  "versionName": "1.5.0",
+  "url": "https://aka.doubaocdn.com/s/8aVbeNsiEi",
+  "sha256": "1e8d267cf770bbe577d89019570ca98bcfcce1c5ad6e7b2d630604e46c9c9e54",
+  "size": 340644,
+  "note": "扫码进面板 + 车机文件站 + 中文日志",
   "pubDate": "2026-11-13"
 }
