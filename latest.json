@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 16,
-  "versionName": "1.7.0",
-  "url": "https://aka.doubaocdn.com/s/UuiHhkLULw",
-  "sha256": "921c8e0b29c22633edafeaa71e7e5605d20e48327b9fa3a806123bd3a7ee7525",
-  "size": 357118,
-  "note": "能力雷达：组件/权限/Intent 只读盘点、权限与 su/Shizuku 探测、结构化事件流、无障碍前台事件记录",
+  "versionCode": 17,
+  "versionName": "1.6.5",
+  "url": "https://aka.doubaocdn.com/s/MpmhH2Went",
+  "sha256": "d845c4572fbc9f499c9548d894e1cfbc295434cb8b0732e470675e487b27b521",
+  "size": 344740,
+  "note": "回退 v1.7.0：移除能力雷达、组件盘点、事件流与无障碍前台记录，功能集恢复到 v1.6.4",
   "pubDate": "2026-11-14"
 }
