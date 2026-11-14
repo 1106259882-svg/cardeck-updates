@@ -3,9 +3,9 @@
   "package": "com.cardeck.tool",
   "versionCode": 20,
   "versionName": "1.7.3",
-  "url": "https://aka.doubaocdn.com/s/SiWPaHI7SR",
-  "sha256": "6a6aa72176d868b284d3cf98688048e6af81b704b670b4d7f1e87bc72ad19d3a",
+  "url": "https://aka.doubaocdn.com/s/aj9IVU3NoW",
+  "sha256": "57be7a3b912579136db8568665395d322f2687d91cdf8dd16ccb20fbd27d1a25",
   "size": 352932,
-  "note": "频谱大屏放大：220dp 悬浮层、默认粗光柱、爆发增强、大小快捷切换、参数即时生效",
+  "note": "频谱大屏放大：220dp 悬浮层、默认粗光柱、爆发增强、大小快捷切换；raw 更新源优先，避免 CDN 滞后",
   "pubDate": "2026-11-14"
 }
