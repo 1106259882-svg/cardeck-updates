@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 17,
-  "versionName": "1.6.5",
-  "url": "https://aka.doubaocdn.com/s/MpmhH2Went",
-  "sha256": "d845c4572fbc9f499c9548d894e1cfbc295434cb8b0732e470675e487b27b521",
-  "size": 344740,
-  "note": "回退 v1.7.0：移除能力雷达、组件盘点、事件流与无障碍前台记录，功能集恢复到 v1.6.4",
+  "versionCode": 18,
+  "versionName": "1.7.1",
+  "url": "https://aka.doubaocdn.com/s/6U3tjk1h3q",
+  "sha256": "5d71901e422abcab8abc436e80192be04fb59add2f9f9f52371f9a050e97c44e",
+  "size": 352932,
+  "note": "音随律动：官方音频回放捕获、24路悬浮频谱、样式/速度/大小/透明度/随机色可调",
   "pubDate": "2026-11-14"
 }
