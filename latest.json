@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 14,
-  "versionName": "1.6.3",
-  "url": "https://aka.doubaocdn.com/s/VscUSQWPyR",
-  "sha256": "770c36167a9cc8959a25be71a3baa705ef4cc58031ec50e452229d69a1d25e69",
-  "size": 348836,
-  "note": "修复 /info 设备信息 JSON 漏逗号导致标准解析失败；其余功能不变",
+  "versionCode": 15,
+  "versionName": "1.6.4",
+  "url": "https://aka.doubaocdn.com/s/piVgjMxaYh",
+  "sha256": "e21dc4ce79ebb964ea597f5762d040619a3c4dd4b92096e5c17e4bf412bfc8f1",
+  "size": 344740,
+  "note": "移除局域网令牌校验：裸 IP 和二维码直接进后台与文件站；清理带令牌链接与界面按钮",
   "pubDate": "2026-11-14"
 }
