@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 21,
-  "versionName": "1.7.4",
-  "url": "https://aka.doubaocdn.com/s/gcfHPtL54E",
-  "sha256": "21c6af33be4b6d14acd6a85c4aa7657c2a2d2130ad6e40f94921a787dca5c390",
-  "size": 344740,
-  "note": "移除音随律动频谱功能：删除频谱服务、路由、面板卡片、录音权限和授权入口",
+  "versionCode": 22,
+  "versionName": "1.7.5",
+  "url": "https://aka.doubaocdn.com/s/aUewyFjF9b",
+  "sha256": "1e0105e130e1121ea87ff822d58a31278f934d26e1a06cca08cf7dcba45039ad",
+  "size": 348836,
+  "note": "新增拾音强度：本地麦克风 RMS 电平、网页百分比进度条、启停监测；不保存音频",
   "pubDate": "2026-11-14"
 }
