@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 13,
-  "versionName": "1.6.2",
-  "url": "https://aka.doubaocdn.com/s/Fko2HPGb6F",
-  "sha256": "722730c2d3c92839a126db335dd11fa3c0477c865bef34fd18f5136730016ce7",
+  "versionCode": 14,
+  "versionName": "1.6.3",
+  "url": "https://aka.doubaocdn.com/s/VscUSQWPyR",
+  "sha256": "770c36167a9cc8959a25be71a3baa705ef4cc58031ec50e452229d69a1d25e69",
   "size": 348836,
-  "note": "更新源彻底修好：先取最新提交换成不可变地址，CDN 缓存再也卡不住",
-  "pubDate": "2026-11-13"
+  "note": "修复 /info 设备信息 JSON 漏逗号导致标准解析失败；其余功能不变",
+  "pubDate": "2026-11-14"
 }
