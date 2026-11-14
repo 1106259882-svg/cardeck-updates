@@ -3,8 +3,8 @@
   "package": "com.cardeck.tool",
   "versionCode": 15,
   "versionName": "1.6.4",
-  "url": "https://aka.doubaocdn.com/s/piVgjMxaYh",
-  "sha256": "e21dc4ce79ebb964ea597f5762d040619a3c4dd4b92096e5c17e4bf412bfc8f1",
+  "url": "https://aka.doubaocdn.com/s/dMqfVMVLmX",
+  "sha256": "6206c1951bcc70fd8e3c65dbd4d6c1e9b18ea24036ff9a9f5747e3c61c2cf36e",
   "size": 344740,
   "note": "移除局域网令牌校验：裸 IP 和二维码直接进后台与文件站；清理带令牌链接与界面按钮",
   "pubDate": "2026-11-14"
