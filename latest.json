@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 18,
-  "versionName": "1.7.1",
-  "url": "https://aka.doubaocdn.com/s/YOLP62lvZU",
-  "sha256": "03a32efdaae03e70c89007819963ac585b61e2d8e6dea600bd3c6da062e719d3",
+  "versionCode": 19,
+  "versionName": "1.7.2",
+  "url": "https://aka.doubaocdn.com/s/hDgnN9sRld",
+  "sha256": "87ae3341bcce2e4603396eee8388ed1b2e6a845ff67490eb477215be4d03b671",
   "size": 352932,
-  "note": "音随律动：官方音频回放捕获、24路悬浮频谱、样式/速度/大小/透明度/随机色可调",
+  "note": "频谱放大：130dp 悬浮层、16ms 刷新、速度实时平滑、滑杆参数即时下发、平均电平与读取错误诊断",
   "pubDate": "2026-11-14"
 }
