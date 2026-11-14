@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 15,
-  "versionName": "1.6.4",
-  "url": "https://aka.doubaocdn.com/s/dMqfVMVLmX",
-  "sha256": "6206c1951bcc70fd8e3c65dbd4d6c1e9b18ea24036ff9a9f5747e3c61c2cf36e",
-  "size": 344740,
-  "note": "移除局域网令牌校验：裸 IP 和二维码直接进后台与文件站；清理带令牌链接与界面按钮",
+  "versionCode": 16,
+  "versionName": "1.7.0",
+  "url": "https://aka.doubaocdn.com/s/UuiHhkLULw",
+  "sha256": "921c8e0b29c22633edafeaa71e7e5605d20e48327b9fa3a806123bd3a7ee7525",
+  "size": 357118,
+  "note": "能力雷达：组件/权限/Intent 只读盘点、权限与 su/Shizuku 探测、结构化事件流、无障碍前台事件记录",
   "pubDate": "2026-11-14"
 }
