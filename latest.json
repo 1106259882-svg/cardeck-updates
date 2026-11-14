@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 23,
-  "versionName": "1.7.6",
-  "url": "https://aka.doubaocdn.com/s/I8ATuQQSLe",
-  "sha256": "26e94fb5454627dc26b78cd6abbbb909a0133db5e8da34775b4b8b01a1c6d18d",
-  "size": 348836,
-  "note": "日志短句分类并保留全部请求反馈；拾音自动尝试语音识别/主麦与16k/44.1k采样，真实记录零采样告警",
+  "versionCode": 24,
+  "versionName": "1.7.7",
+  "url": "https://aka.doubaocdn.com/s/r7YZfVZ8pv",
+  "sha256": "fdb22fae73ee45ce5b97ce7bfa11cc9cb4ff3207f261ad48c35b29b363fa3455",
+  "size": 344740,
+  "note": "移除拾音强度功能：删除麦克风服务、路由、面板卡片、录音权限和授权入口",
   "pubDate": "2026-11-14"
 }
