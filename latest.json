@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 19,
-  "versionName": "1.7.2",
-  "url": "https://aka.doubaocdn.com/s/hDgnN9sRld",
-  "sha256": "87ae3341bcce2e4603396eee8388ed1b2e6a845ff67490eb477215be4d03b671",
+  "versionCode": 20,
+  "versionName": "1.7.3",
+  "url": "https://aka.doubaocdn.com/s/SiWPaHI7SR",
+  "sha256": "6a6aa72176d868b284d3cf98688048e6af81b704b670b4d7f1e87bc72ad19d3a",
   "size": 352932,
-  "note": "频谱放大：130dp 悬浮层、16ms 刷新、速度实时平滑、滑杆参数即时下发、平均电平与读取错误诊断",
+  "note": "频谱大屏放大：220dp 悬浮层、默认粗光柱、爆发增强、大小快捷切换、参数即时生效",
   "pubDate": "2026-11-14"
 }
