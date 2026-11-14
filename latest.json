@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 20,
-  "versionName": "1.7.3",
-  "url": "https://aka.doubaocdn.com/s/aj9IVU3NoW",
-  "sha256": "57be7a3b912579136db8568665395d322f2687d91cdf8dd16ccb20fbd27d1a25",
-  "size": 352932,
-  "note": "频谱大屏放大：220dp 悬浮层、默认粗光柱、爆发增强、大小快捷切换；raw 更新源优先，避免 CDN 滞后",
+  "versionCode": 21,
+  "versionName": "1.7.4",
+  "url": "https://aka.doubaocdn.com/s/gcfHPtL54E",
+  "sha256": "21c6af33be4b6d14acd6a85c4aa7657c2a2d2130ad6e40f94921a787dca5c390",
+  "size": 344740,
+  "note": "移除音随律动频谱功能：删除频谱服务、路由、面板卡片、录音权限和授权入口",
   "pubDate": "2026-11-14"
 }
