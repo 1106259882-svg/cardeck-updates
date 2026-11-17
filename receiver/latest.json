@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 37,
-  "versionName": "1.4.5",
-  "url": "https://aka.doubaocdn.com/s/Pt8VbH6S22",
-  "sha256": "dde7ef6cb053b6dc61f2432bcd234ab174dd4404a6b23edc4c9aac56ee1ad3cc",
+  "versionCode": 38,
+  "versionName": "1.4.6",
+  "url": "https://aka.doubaocdn.com/s/X9NpWUGjoL",
+  "sha256": "130d129e262e75c40ae64acab9a686eb28f5e1a02d3928a82b7098fbecf5747e",
   "size": 70141,
-  "note": "电池详情改用本机真实 bms 节点读取：电压/电流/温度/满电容量/设计容量/循环次数/健康度全部有数，电流三次采样取平均，明确标注净电流方向（流入充电或净放电）；车机信息行自动隐藏无数据的死字段。",
+  "note": "去掉人为上限与推断：不再显示充电输入上限，电流按原始带符号数值（μA 与 mA 同时给出）显示，功率按原值相乘不做处理，卡片数值也不再被截断到 0-100，设备内部是怎么样就显示怎么样。",
   "pubDate": "2026-11-17"
 }
