@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 10,
-  "versionName": "1.1.8",
-  "url": "https://aka.doubaocdn.com/s/2dSYkLt0zU",
-  "sha256": "5c07b118c2348df33c289fc9356fc191c55ce3c37cfd55bf65f77c46490efc8a",
+  "versionCode": 11,
+  "versionName": "1.1.9",
+  "url": "https://aka.doubaocdn.com/s/Ay4K6wl2JL",
+  "sha256": "7681aaebfbef111f07d0133afb31132073ed19ba285ad2182f11173fc4353ee4",
   "size": 57853,
-  "note": "关键修复：MQTT 命令报文解析从固定偏移改为按主题长度定位，远程命令现在能正常收到并回传结果；单条异常命令不再导致整条通道重连；收到格式异常命令只记录中文提示。",
+  "note": "外网通道开关自动记忆并在启动后自动恢复，更新或重启 App 后不用再手动点开启外网；新增固定发现主题，远端可直接查到当前通道编号与口令。",
   "pubDate": "2026-11-17"
 }
