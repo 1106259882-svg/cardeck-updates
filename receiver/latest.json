@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 36,
-  "versionName": "1.4.4",
-  "url": "https://aka.doubaocdn.com/s/Qf56dxTVk7",
-  "sha256": "c7caea3c8e34f4510914d2a984799054c56b513eda7bb6ae89f049c179e76373",
+  "versionCode": 37,
+  "versionName": "1.4.5",
+  "url": "https://aka.doubaocdn.com/s/Pt8VbH6S22",
+  "sha256": "dde7ef6cb053b6dc61f2432bcd234ab174dd4404a6b23edc4c9aac56ee1ad3cc",
   "size": 70141,
-  "note": "布局改为自适应（按屏幕宽度自动决定每行卡片数量、窄屏自动折行）；点「电量」卡片进入电池详情页，实时显示电量/充电状态/电压/电流/充电功率/温度/健康度/容量/循环次数，每 2 秒刷新。",
+  "note": "电池详情改用本机真实 bms 节点读取：电压/电流/温度/满电容量/设计容量/循环次数/健康度全部有数，电流三次采样取平均，明确标注净电流方向（流入充电或净放电）；车机信息行自动隐藏无数据的死字段。",
   "pubDate": "2026-11-17"
 }
