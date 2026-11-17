@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 29,
-  "versionName": "1.3.7",
-  "url": "https://aka.doubaocdn.com/s/Yz5wpygpRW",
-  "sha256": "2f263521594f2caae78c95d7cc3781e18be950c215dc4054e79df5c801aa91e7",
+  "versionCode": 30,
+  "versionName": "1.3.8",
+  "url": "https://aka.doubaocdn.com/s/utOL2kv6BV",
+  "sha256": "12043d66ee989407999071500343d501803f7bbf6f62d81e6eda1f7f67d8a5f5",
   "size": 61949,
-  "note": "启动自愈：覆盖安装后若连续两次未能完成启动，自动清空可疑残留（downloads 下载缓存、崩溃记录）并关闭外网自动连接进入安全模式，避免覆盖安装即闪退的死循环。",
+  "note": "新增三项能力：右上角显示真实连接状态（已连接绿/未连接红）；远程安装 APK（install/uninstall，下载后静默安装并回传结果）；车机画面远程读取（carShot），本机截图 screenshot 同享。",
   "pubDate": "2026-11-17"
 }
