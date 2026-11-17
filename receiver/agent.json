@@ -1,11 +1,11 @@
 {
   "app": "车机远控代理",
   "package": "com.cardeck.agent",
-  "versionCode": 2,
-  "versionName": "1.1.0",
-  "url": "https://aka.doubaocdn.com/s/OUGRe30gwN",
-  "sha256": "35fcaada0e68f14cfe186ce076f9d9f1470544f06a95014f8ebb8feed1c698ac",
+  "versionCode": 3,
+  "versionName": "1.2.0",
+  "url": "https://aka.doubaocdn.com/s/KLMPz9Y9np",
+  "sha256": "096617b34e4f214bcb15f9374e8b97cfdd08bad7956d37d98dfcbf0bee37bcbc",
   "size": 45565,
-  "note": "新增 uiDump 读屏（返回控件文本/坐标/可点击）；新增状态看门狗：温度过高、电量<=20%、HUD 进程不在、检测到崩溃时主动往 cardeck/alert 推送。",
+  "note": "新增局域网接口 8788：/act 安全动作白名单（status/home/back/brightness/volume/open/screen_on/off 等），给手机端 Siri 快捷指令做语音入口。",
   "pubDate": "2026-11-17"
 }
