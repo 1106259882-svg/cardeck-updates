@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 26,
-  "versionName": "1.3.4",
-  "url": "https://aka.doubaocdn.com/s/9Yfzs6Kgbk",
-  "sha256": "bfe2e29e49153e34710f77a15debd7ea3fe599c0418393615c9758bca0293e19",
+  "versionCode": 27,
+  "versionName": "1.3.5",
+  "url": "https://aka.doubaocdn.com/s/YSXnZMUQ71",
+  "sha256": "c66e01cae855c45fc4cc734f6892bba845f02b98e03c02632102696c71a01aaa",
   "size": 61949,
-  "note": "修复自收自发死循环：去掉话题通配订阅，只在命令主题上执行命令，自己发出的 result/hello 回声直接忽略。",
+  "note": "修复点更新没反应：更新检查原先要把 6 个源全扫完（最坏 5 分钟以上），期间再点按钮会被静默忽略；现在拿到比本机新的版本就立即停止，超时收紧到 8 秒，正在检查时点按钮也会写明原因并记录远端/本机版本号。",
   "pubDate": "2026-11-17"
 }
