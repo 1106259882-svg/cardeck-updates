@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 17,
-  "versionName": "1.2.5",
-  "url": "https://aka.doubaocdn.com/s/yUyBZ7b7Zr",
-  "sha256": "a3287ef14ecdf6748b9af96f5ac3d7dfd1793fe1dbce767592c03ce61e4190f3",
+  "versionCode": 18,
+  "versionName": "1.2.6",
+  "url": "https://aka.doubaocdn.com/s/yTiddDcWjz",
+  "sha256": "d79244a23cdd67d550a0ad5b83ca8dcfec2dc72e9e6f97aa294122473c67bdf3",
   "size": 57853,
-  "note": "新增崩溃自记录：任何崩溃都会把堆栈写入应用私有目录 cardeck_crash.txt，并带到上线消息的 lastCrash 字段；启动流程加异常保护，单次异常不再直接闪退。",
+  "note": "针对握手阶段 SocketTimeoutException（读确认包超时）：握手等待从 5 秒延长到 20 秒、确认包读取三次重试；新增三条线路自动切换（broker.emqx.io 加密、broker-cn.emqx.io 加密、broker.emqx.io 明文），一条不通自动换下一条并记录中文日志。",
   "pubDate": "2026-11-17"
 }
