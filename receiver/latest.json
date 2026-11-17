@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 5,
-  "versionName": "1.1.3",
-  "url": "https://aka.doubaocdn.com/s/78ImRC00D2",
-  "sha256": "a454087c6181637fdad3b0ef4ee2025a0aa6af4a41e50a58e8f2ef756fc1fef7",
-  "size": 45565,
-  "note": "新增 MQTT TLS 出站调试通道：随机话题和 token、hello 上线、命令回传、心跳重连；支持商米 overview/shell/logcat/dmesg/进程/包列表/文件/截图，并经接收端代理车机状态、网络、设备信息、应用、音量、媒体、亮度、常亮、按键、TTS 和日志控制。",
+  "versionCode": 6,
+  "versionName": "1.1.4",
+  "url": "https://aka.doubaocdn.com/s/rFC1AgYITR",
+  "sha256": "327db4c2a5c0374335838faede50ed63bb58c9c1de79e08c1b4a20b3cdfd1feb",
+  "size": 49661,
+  "note": "新增前台常驻服务、唤醒锁和十五秒离线自检重连；固定外网通道编号和令牌；新增申请权限按钮，检测 su 路径、which su、su -c id 和 Magisk 包名；命令收到后先回传确认；界面日志改为中文显示。",
   "pubDate": "2026-11-17"
 }
