@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 19,
-  "versionName": "1.2.7",
-  "url": "https://aka.doubaocdn.com/s/VcjeK26dbx",
-  "sha256": "c7a6fc366c99e22d862e807dfa372eb4c676d4dbe5b46624ee5f2b5ec0f860fe",
+  "versionCode": 20,
+  "versionName": "1.2.8",
+  "url": "https://aka.doubaocdn.com/s/U9X9K4hFC4",
+  "sha256": "744b93629c6a965039dbadd6be841622d1e12cbfbd3b2be4bc96c5128e54301f",
   "size": 57853,
-  "note": "修复点更新不弹窗：原先只取第一个返回成功的镜像，国内网络下常拿到 jsdelivr 缓存旧清单，被判为已是最新；现改为遍历全部 6 个源取版本号最高的一份，并新增 gh-proxy、ghproxy.net、gitmirror 三个国内加速源；每个源的返回版本号写入调试详情。",
+  "note": "修复 1.2.6/1.2.7 偶发闪退：通道线程内任何异常不再向上冒泡杀死整个 App，改为记录堆栈到 lastCrash 并写中文日志后自动重试；外网通道的异常捕获范围从 Exception 扩大到 Throwable。",
   "pubDate": "2026-11-17"
 }
