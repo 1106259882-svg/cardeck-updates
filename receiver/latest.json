@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 16,
-  "versionName": "1.2.4",
-  "url": "https://aka.doubaocdn.com/s/TfUZRPawVs",
-  "sha256": "ab67d8be8c2695ce9fdd4df8400bfba2aa04ba547d76711e9abdcefdcf5fdd36",
+  "versionCode": 17,
+  "versionName": "1.2.5",
+  "url": "https://aka.doubaocdn.com/s/yUyBZ7b7Zr",
+  "sha256": "a3287ef14ecdf6748b9af96f5ac3d7dfd1793fe1dbce767592c03ce61e4190f3",
   "size": 57853,
-  "note": "上线消息新增重连次数、最近一次断线原因（异常类型与原文）、运行秒数，便于远程定位通道反复重连的根因；断线日志也改为显示异常类型。",
+  "note": "新增崩溃自记录：任何崩溃都会把堆栈写入应用私有目录 cardeck_crash.txt，并带到上线消息的 lastCrash 字段；启动流程加异常保护，单次异常不再直接闪退。",
   "pubDate": "2026-11-17"
 }
