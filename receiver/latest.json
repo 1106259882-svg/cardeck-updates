@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 11,
-  "versionName": "1.1.9",
-  "url": "https://aka.doubaocdn.com/s/Ay4K6wl2JL",
-  "sha256": "7681aaebfbef111f07d0133afb31132073ed19ba285ad2182f11173fc4353ee4",
+  "versionCode": 12,
+  "versionName": "1.2.0",
+  "url": "https://aka.doubaocdn.com/s/vfJ5rQ8ROq",
+  "sha256": "d633e2347fb16b47e018644ae8d325b1befc1393d086f8a4b60a9c949e1e1e64",
   "size": 57853,
-  "note": "外网通道开关自动记忆并在启动后自动恢复，更新或重启 App 后不用再手动点开启外网；新增固定发现主题，远端可直接查到当前通道编号与口令。",
+  "note": "上线消息新增当前 App 版本号，远端可直接确认设备装的是哪一版；继承 1.1.8 命令解析修复与 1.1.9 外网通道自动恢复。",
   "pubDate": "2026-11-17"
 }
