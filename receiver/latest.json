@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 33,
-  "versionName": "1.4.1",
-  "url": "https://aka.doubaocdn.com/s/ZipA2cV0ZH",
-  "sha256": "cc79673e9c7ebbfd2424c2ab0f3c22b8ee6a135a945814620ff11dfcec1a1a4f",
+  "versionCode": 34,
+  "versionName": "1.4.2",
+  "url": "https://aka.doubaocdn.com/s/TpcdeiUKrI",
+  "sha256": "c0aef97dd26817c51bb7e28f4363178e147ef99212507da31d1754df2db8f304",
   "size": 66045,
-  "note": "新增运维套装：ui（点击/滑动/长按/按键/输入文字）、app（启动/停止/清数据/卸载/查前台）；主界面新增「本机状态」四个表盘（CPU/内存/存储/电量+温度），每 6 秒自动刷新。",
+  "note": "去掉车机「电量」表盘（车机不报电量，长期显示 --）；排版整理：车机与手机分区加分隔线和小标题，车机三项一行排列，表盘高度统一，标题不再挤在一起。",
   "pubDate": "2026-11-17"
 }
