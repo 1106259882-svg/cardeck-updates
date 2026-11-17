@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 24,
-  "versionName": "1.7.7",
-  "url": "https://aka.doubaocdn.com/s/r7YZfVZ8pv",
-  "sha256": "fdb22fae73ee45ce5b97ce7bfa11cc9cb4ff3207f261ad48c35b29b363fa3455",
-  "size": 344740,
-  "note": "移除拾音强度功能：删除麦克风服务、路由、面板卡片、录音权限和授权入口",
-  "pubDate": "2026-11-14"
+  "versionCode": 25,
+  "versionName": "1.7.8",
+  "url": "https://aka.doubaocdn.com/s/gvhh6vBHfu",
+  "sha256": "8ddfdb09f5bdda2e78820dd76174da6147d8d34f52aebcb5fdd184bca2242630",
+  "size": 348836,
+  "note": "新增 /events SSE 长连接：推送日志快照、新日志和心跳；供商米副屏接收端订阅。",
+  "pubDate": "2026-11-17"
 }
