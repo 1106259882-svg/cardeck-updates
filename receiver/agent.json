@@ -1,11 +1,11 @@
 {
   "app": "车机远控代理",
   "package": "com.cardeck.agent",
-  "versionCode": 1,
-  "versionName": "1.0.0",
-  "url": "https://aka.doubaocdn.com/s/QbxMvWu9yw",
-  "sha256": "7736a804d5fd8dd803488a0fa215eeada184b1023b5f46dd92a099db0f0b5d10",
-  "size": 41469,
-  "note": "独立远控代理：不依赖 HUD 界面，升级 HUD 不影响本进程；支持 shell(root)/截图/装APK/卸载/UI操作/应用管理。话题命名空间 cardeck/agent/*，发现应答在 cardeck/discover/hello/agent。",
+  "versionCode": 2,
+  "versionName": "1.1.0",
+  "url": "https://aka.doubaocdn.com/s/OUGRe30gwN",
+  "sha256": "35fcaada0e68f14cfe186ce076f9d9f1470544f06a95014f8ebb8feed1c698ac",
+  "size": 45565,
+  "note": "新增 uiDump 读屏（返回控件文本/坐标/可点击）；新增状态看门狗：温度过高、电量<=20%、HUD 进程不在、检测到崩溃时主动往 cardeck/alert 推送。",
   "pubDate": "2026-11-17"
 }
