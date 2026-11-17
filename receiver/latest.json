@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 34,
-  "versionName": "1.4.2",
-  "url": "https://aka.doubaocdn.com/s/TpcdeiUKrI",
-  "sha256": "c0aef97dd26817c51bb7e28f4363178e147ef99212507da31d1754df2db8f304",
+  "versionCode": 35,
+  "versionName": "1.4.3",
+  "url": "https://aka.doubaocdn.com/s/chckiW7MCz",
+  "sha256": "52be1f709406c20b4cdd5fd3b9d298c54ba908061ba3277cd2ace2a938490858",
   "size": 66045,
-  "note": "去掉车机「电量」表盘（车机不报电量，长期显示 --）；排版整理：车机与手机分区加分隔线和小标题，车机三项一行排列，表盘高度统一，标题不再挤在一起。",
+  "note": "排版重构：状态区不再用大圆盘，改成紧凑科技卡片（标签+大号数字+细进度条），车机3张、本机4张一行排开，彻底解决右侧截断和被导航栏遮挡；更新检查新增 GitHub 内容接口实时源，避免 raw CDN 缓存导致看不到新版。",
   "pubDate": "2026-11-17"
 }
