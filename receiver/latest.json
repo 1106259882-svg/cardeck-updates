@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 14,
-  "versionName": "1.2.2",
-  "url": "https://aka.doubaocdn.com/s/FH6kTGjTu3",
-  "sha256": "b42755c7eeef37de43c2a949e86811be34db1622d190ff0cd5d962419d414ecc",
+  "versionCode": 15,
+  "versionName": "1.2.3",
+  "url": "https://aka.doubaocdn.com/s/CeIfJcxr10",
+  "sha256": "961fb403cf46c58c505890e45d7a772b9f59dbe7427a6f195a12b7d24d806b9d",
   "size": 57853,
-  "note": "关键修复：MQTT 读循环为阻塞读，心跳包从未真正发出，中继每 60 秒准时踢线导致反复重连、命令回不来；改为 5 秒唤醒发送心跳，keepalive 提到 60 秒。右上角平时只显示版本号，仅在检查/下载更新时显示进度，结束自动恢复版本号。",
+  "note": "修复启动即崩溃：Root 检测原本在构造函数里同步执行 su（最长可阻塞二十多秒），启动自动连外网时卡死主线程被判无响应；现改为后台线程检测并带 60 秒缓存，重连不再重复跑 su。",
   "pubDate": "2026-11-17"
 }
