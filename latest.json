@@ -1,11 +1,11 @@
 {
   "app": "CarDeck",
   "package": "com.cardeck.tool",
-  "versionCode": 25,
-  "versionName": "1.7.8",
-  "url": "https://aka.doubaocdn.com/s/gvhh6vBHfu",
-  "sha256": "8ddfdb09f5bdda2e78820dd76174da6147d8d34f52aebcb5fdd184bca2242630",
+  "versionCode": 26,
+  "versionName": "1.7.9",
+  "url": "https://aka.doubaocdn.com/s/dTYDHfpTld",
+  "sha256": "7ccee62de779d3edee2a828bac4bbdbaefc9d3484d492d23b77fe2544f9c8533",
   "size": 348836,
-  "note": "新增 /events SSE 长连接：推送日志快照、新日志和心跳；供商米副屏接收端订阅。",
+  "note": "日志全面中文化：成功/失败/请求/系统标签改为中文，接口结果只输出中文摘要（电量、内存占用、信号、速率），不再把 JSON 原文写进日志。",
   "pubDate": "2026-11-17"
 }
