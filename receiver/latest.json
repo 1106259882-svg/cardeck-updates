@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 13,
-  "versionName": "1.2.1",
-  "url": "https://aka.doubaocdn.com/s/NfJPiDpJCd",
-  "sha256": "2333d72f65f4977e98e09baa81b358c5cf0510f9be17f6af9e4a9754aa7f702c",
+  "versionCode": 14,
+  "versionName": "1.2.2",
+  "url": "https://aka.doubaocdn.com/s/FH6kTGjTu3",
+  "sha256": "b42755c7eeef37de43c2a949e86811be34db1622d190ff0cd5d962419d414ecc",
   "size": 57853,
-  "note": "修复两路订阅共用同一报文编号可能被中继判协议异常掉线的问题；新增 ping 诊断命令（无需口令即可返回版本）；收到命令时在运行日志显示中文提示；发现回应与上线消息均带版本号。",
+  "note": "关键修复：MQTT 读循环为阻塞读，心跳包从未真正发出，中继每 60 秒准时踢线导致反复重连、命令回不来；改为 5 秒唤醒发送心跳，keepalive 提到 60 秒。右上角平时只显示版本号，仅在检查/下载更新时显示进度，结束自动恢复版本号。",
   "pubDate": "2026-11-17"
 }
