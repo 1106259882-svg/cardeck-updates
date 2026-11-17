@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 27,
-  "versionName": "1.3.5",
-  "url": "https://aka.doubaocdn.com/s/YSXnZMUQ71",
-  "sha256": "c66e01cae855c45fc4cc734f6892bba845f02b98e03c02632102696c71a01aaa",
+  "versionCode": 28,
+  "versionName": "1.3.6",
+  "url": "https://aka.doubaocdn.com/s/3A6PVHUiGr",
+  "sha256": "e5a4e46e23681adc66404e796e48d9da4edb76a45ef847f714f75b668d2641aa",
   "size": 61949,
-  "note": "修复点更新没反应：更新检查原先要把 6 个源全扫完（最坏 5 分钟以上），期间再点按钮会被静默忽略；现在拿到比本机新的版本就立即停止，超时收紧到 8 秒，正在检查时点按钮也会写明原因并记录远端/本机版本号。",
+  "note": "修复启动即闪退：1.3.5 在更新检查的后台线程里直接写界面日志，触发 Android 跨线程改控件崩溃；现在日志写入统一做线程判断，非主线程自动转投主线程执行，整类问题一次性消除。",
   "pubDate": "2026-11-17"
 }
