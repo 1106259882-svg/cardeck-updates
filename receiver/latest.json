@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 30,
-  "versionName": "1.3.8",
-  "url": "https://aka.doubaocdn.com/s/utOL2kv6BV",
-  "sha256": "12043d66ee989407999071500343d501803f7bbf6f62d81e6eda1f7f67d8a5f5",
+  "versionCode": 31,
+  "versionName": "1.3.9",
+  "url": "https://aka.doubaocdn.com/s/4qDgAJfc9O",
+  "sha256": "__SHA__",
   "size": 61949,
-  "note": "新增三项能力：右上角显示真实连接状态（已连接绿/未连接红）；远程安装 APK（install/uninstall，下载后静默安装并回传结果）；车机画面远程读取（carShot），本机截图 screenshot 同享。",
+  "note": "修复 1.3.8 两处问题：右上角状态被版本号覆盖（改为每 5 秒刷新真实状态）；安装命令只读 stdout 漏掉 stderr 导致失败原因丢失（现已 2>&1 捕获，并补 pm/界面空指针防护）。",
   "pubDate": "2026-11-17"
 }
