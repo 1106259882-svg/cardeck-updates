@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 3,
-  "versionName": "1.1.1",
-  "url": "https://aka.doubaocdn.com/s/vvuj2TChID",
-  "sha256": "36ea597b38f22d250a2fdda1c42e72febafc2f2b0792031a3873e021d7e594fc",
-  "size": 29181,
-  "note": "修复主界面无法滑动；远程控制、媒体键、亮度、常亮、按键和 TTS 全部移入「控制台」二级弹窗；主界面保留仪表盘、状态波形和底部日志。",
+  "versionCode": 4,
+  "versionName": "1.1.2",
+  "url": "https://aka.doubaocdn.com/s/fnrCaeLRh7",
+  "sha256": "d7f52572613525b061fc798cf555bde55b24d9f0b013b6699c637242de6538a2",
+  "size": 41469,
+  "note": "主界面重排为连接信息、操作按钮、两行仪表、波形和日志；控制台新增本机 Root 调试通道：8789 局域网端口、token 鉴权、设备概览、shell、logcat、dmesg、进程、包列表、文件读取和截图。",
   "pubDate": "2026-11-17"
 }
