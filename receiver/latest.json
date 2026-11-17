@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 23,
-  "versionName": "1.3.1",
-  "url": "https://aka.doubaocdn.com/s/WoJo9UmnxP",
-  "sha256": "1acf8a2579efa50ca22753e189be3ee65ecb77262303f26ac29b3dd917bdbb0f",
+  "versionCode": 24,
+  "versionName": "1.3.2",
+  "url": "https://aka.doubaocdn.com/s/BYw7lXxBsE",
+  "sha256": "cf715c8577c89edc6f95a2df6a62845acfe52206fd99ef6128513adb6e32c9bd",
   "size": 61949,
-  "note": "修复更新下载必然失败：清单里的包体大小与实际文件不一致（61949 字节被写成 57853），下载后被判不完整并删包；现改为哈希优先校验，尺寸仅在无哈希时比对，失败时把具体原因写进日志。",
+  "note": "全面加固：下载三次重试+断点续传、哈希优先校验、失败原因写入日志；发布流程改为脚本自动计算 sha256 与真实体积，杜绝清单数值手填错误。",
   "pubDate": "2026-11-17"
 }
