@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 20,
-  "versionName": "1.2.8",
-  "url": "https://aka.doubaocdn.com/s/U9X9K4hFC4",
-  "sha256": "744b93629c6a965039dbadd6be841622d1e12cbfbd3b2be4bc96c5128e54301f",
+  "versionCode": 22,
+  "versionName": "1.3.0",
+  "url": "https://aka.doubaocdn.com/s/iQrGJ5oF1M",
+  "sha256": "1cf51ad5651e357f7c6efbf005257b2bae60cabdf32d45efcd319d5a874ceac1",
   "size": 57853,
-  "note": "修复 1.2.6/1.2.7 偶发闪退：通道线程内任何异常不再向上冒泡杀死整个 App，改为记录堆栈到 lastCrash 并写中文日志后自动重试；外网通道的异常捕获范围从 Exception 扩大到 Throwable。",
+  "note": "心跳改独立线程、读超时放宽到 45 秒；连接名每次唯一避免同名互踢；订阅确认码写入调试详情与上线消息（subAck 字段），并同时订阅话题通配符，用于定位命令收不到的原因。",
   "pubDate": "2026-11-17"
 }
