@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 6,
-  "versionName": "1.1.4",
-  "url": "https://aka.doubaocdn.com/s/rFC1AgYITR",
-  "sha256": "327db4c2a5c0374335838faede50ed63bb58c9c1de79e08c1b4a20b3cdfd1feb",
+  "versionCode": 7,
+  "versionName": "1.1.5",
+  "url": "https://aka.doubaocdn.com/s/MMgUiVjRoj",
+  "sha256": "96119348ae9c84389c54a4f9a9b41a1d881efb7fc10cd9db46f5db017aac61ab",
   "size": 49661,
-  "note": "新增前台常驻服务、唤醒锁和十五秒离线自检重连；固定外网通道编号和令牌；新增申请权限按钮，检测 su 路径、which su、su -c id 和 Magisk 包名；命令收到后先回传确认；界面日志改为中文显示。",
+  "note": "日志移入独立二级弹窗并支持滑动和回到顶部；控制台弹窗可滚动；守护服务独立开关和状态显示；按钮增加已发送/成功/失败中文反馈；修复后台线程刷新界面报错；更新清单随机参数、重试、下载进度、断点续传和中文校验提示。",
   "pubDate": "2026-11-17"
 }
