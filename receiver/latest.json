@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 1,
-  "versionName": "1.0.0",
-  "url": "https://aka.doubaocdn.com/s/ipKNx4YAjR",
-  "sha256": "538ab7543d820f5175b71bd09da01d04d04a7082c763912aa17466ad85158ecf",
-  "size": 25085,
-  "note": "首版接收端：订阅车机 /events 实时显示状态和日志；内置在线更新检查、下载校验和安装跳转。",
+  "versionCode": 2,
+  "versionName": "1.1.0",
+  "url": "https://aka.doubaocdn.com/s/Mglk2oUomV",
+  "sha256": "35be4a0537b6458277ea08eccd80801b6f1cdb54cf358a692b75c3bf65700e48",
+  "size": 29181,
+  "note": "赛博 HUD 仪表盘：CPU/内存/存储/电量仪表、网络与日志波形、扩展状态；新增音量、媒体键、亮度、常亮、返回/主页/最近任务、TTS 播报远程控制；保留在线更新与底部日志。",
   "pubDate": "2026-11-17"
 }
