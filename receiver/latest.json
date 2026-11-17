@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 28,
-  "versionName": "1.3.6",
-  "url": "https://aka.doubaocdn.com/s/3A6PVHUiGr",
-  "sha256": "e5a4e46e23681adc66404e796e48d9da4edb76a45ef847f714f75b668d2641aa",
+  "versionCode": 29,
+  "versionName": "1.3.7",
+  "url": "https://aka.doubaocdn.com/s/Yz5wpygpRW",
+  "sha256": "2f263521594f2caae78c95d7cc3781e18be950c215dc4054e79df5c801aa91e7",
   "size": 61949,
-  "note": "修复启动即闪退：1.3.5 在更新检查的后台线程里直接写界面日志，触发 Android 跨线程改控件崩溃；现在日志写入统一做线程判断，非主线程自动转投主线程执行，整类问题一次性消除。",
+  "note": "启动自愈：覆盖安装后若连续两次未能完成启动，自动清空可疑残留（downloads 下载缓存、崩溃记录）并关闭外网自动连接进入安全模式，避免覆盖安装即闪退的死循环。",
   "pubDate": "2026-11-17"
 }
