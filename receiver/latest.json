@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 38,
-  "versionName": "1.4.6",
-  "url": "https://aka.doubaocdn.com/s/X9NpWUGjoL",
-  "sha256": "130d129e262e75c40ae64acab9a686eb28f5e1a02d3928a82b7098fbecf5747e",
+  "versionCode": 39,
+  "versionName": "1.4.7",
+  "url": "https://aka.doubaocdn.com/s/QApnEqmgft",
+  "sha256": "29446c5de8db1c7033eea121d2d6a39ac7b6ddf09609ba8f676da1cdbd35a48a",
   "size": 70141,
-  "note": "去掉人为上限与推断：不再显示充电输入上限，电流按原始带符号数值（μA 与 mA 同时给出）显示，功率按原值相乘不做处理，卡片数值也不再被截断到 0-100，设备内部是怎么样就显示怎么样。",
+  "note": "崩溃根治：updateMqttStatus 与 refreshHeader 整体容错，任何控件异常只记日志不再崩进程；新增未捕获异常落盘 cardeck_crash.txt，崩溃后可直接取证。",
   "pubDate": "2026-11-17"
 }
