@@ -1,0 +1,11 @@
+{
+  "app": "车机副屏",
+  "package": "com.cardeck.receiver",
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "url": "https://aka.doubaocdn.com/s/ipKNx4YAjR",
+  "sha256": "538ab7543d820f5175b71bd09da01d04d04a7082c763912aa17466ad85158ecf",
+  "size": 25085,
+  "note": "首版接收端：订阅车机 /events 实时显示状态和日志；内置在线更新检查、下载校验和安装跳转。",
+  "pubDate": "2026-11-17"
+}
