@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 32,
-  "versionName": "1.4.0",
-  "url": "https://aka.doubaocdn.com/s/1v4AjCGDA2",
-  "sha256": "7ecd5e8e64e347ef82bf28628d37866d6c372b7c370c7f58009446756669ef2d",
-  "size": 61949,
-  "note": "右上角改为独立运行状态行（文字+在线秒数，不靠颜色）：外网 在线 · 3分12秒 / 外网 连接中 / 外网 已停止。启动改为分步容错，任何一步失败只记录不崩进程；覆盖安装后只要上次没启动完成，本次自动进安全模式。",
+  "versionCode": 33,
+  "versionName": "1.4.1",
+  "url": "https://aka.doubaocdn.com/s/ZipA2cV0ZH",
+  "sha256": "cc79673e9c7ebbfd2424c2ab0f3c22b8ee6a135a945814620ff11dfcec1a1a4f",
+  "size": 66045,
+  "note": "新增运维套装：ui（点击/滑动/长按/按键/输入文字）、app（启动/停止/清数据/卸载/查前台）；主界面新增「本机状态」四个表盘（CPU/内存/存储/电量+温度），每 6 秒自动刷新。",
   "pubDate": "2026-11-17"
 }
