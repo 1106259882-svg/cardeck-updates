@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 12,
-  "versionName": "1.2.0",
-  "url": "https://aka.doubaocdn.com/s/vfJ5rQ8ROq",
-  "sha256": "d633e2347fb16b47e018644ae8d325b1befc1393d086f8a4b60a9c949e1e1e64",
+  "versionCode": 13,
+  "versionName": "1.2.1",
+  "url": "https://aka.doubaocdn.com/s/NfJPiDpJCd",
+  "sha256": "2333d72f65f4977e98e09baa81b358c5cf0510f9be17f6af9e4a9754aa7f702c",
   "size": 57853,
-  "note": "上线消息新增当前 App 版本号，远端可直接确认设备装的是哪一版；继承 1.1.8 命令解析修复与 1.1.9 外网通道自动恢复。",
+  "note": "修复两路订阅共用同一报文编号可能被中继判协议异常掉线的问题；新增 ping 诊断命令（无需口令即可返回版本）；收到命令时在运行日志显示中文提示；发现回应与上线消息均带版本号。",
   "pubDate": "2026-11-17"
 }
