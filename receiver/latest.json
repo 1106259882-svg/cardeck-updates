@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 18,
-  "versionName": "1.2.6",
-  "url": "https://aka.doubaocdn.com/s/yTiddDcWjz",
-  "sha256": "d79244a23cdd67d550a0ad5b83ca8dcfec2dc72e9e6f97aa294122473c67bdf3",
+  "versionCode": 19,
+  "versionName": "1.2.7",
+  "url": "https://aka.doubaocdn.com/s/VcjeK26dbx",
+  "sha256": "c7a6fc366c99e22d862e807dfa372eb4c676d4dbe5b46624ee5f2b5ec0f860fe",
   "size": 57853,
-  "note": "针对握手阶段 SocketTimeoutException（读确认包超时）：握手等待从 5 秒延长到 20 秒、确认包读取三次重试；新增三条线路自动切换（broker.emqx.io 加密、broker-cn.emqx.io 加密、broker.emqx.io 明文），一条不通自动换下一条并记录中文日志。",
+  "note": "修复点更新不弹窗：原先只取第一个返回成功的镜像，国内网络下常拿到 jsdelivr 缓存旧清单，被判为已是最新；现改为遍历全部 6 个源取版本号最高的一份，并新增 gh-proxy、ghproxy.net、gitmirror 三个国内加速源；每个源的返回版本号写入调试详情。",
   "pubDate": "2026-11-17"
 }
