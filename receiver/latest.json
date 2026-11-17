@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 7,
-  "versionName": "1.1.5",
-  "url": "https://aka.doubaocdn.com/s/MMgUiVjRoj",
-  "sha256": "96119348ae9c84389c54a4f9a9b41a1d881efb7fc10cd9db46f5db017aac61ab",
-  "size": 49661,
-  "note": "日志移入独立二级弹窗并支持滑动和回到顶部；控制台弹窗可滚动；守护服务独立开关和状态显示；按钮增加已发送/成功/失败中文反馈；修复后台线程刷新界面报错；更新清单随机参数、重试、下载进度、断点续传和中文校验提示。",
+  "versionCode": 8,
+  "versionName": "1.1.6",
+  "url": "https://aka.doubaocdn.com/s/lQBsF5PwbU",
+  "sha256": "1edd3fc07077db5481b92869356bdfd4452fb7bb8633ff18edac43d90946783f",
+  "size": 53757,
+  "note": "日志上翻历史时不再被新日志拉回底部；主日志只显示纯中文真实反馈，英文和原始报文收进调试详情；Root 授权后界面状态立即刷新；远程命令兼容 shell: 前缀与 args 数组；横屏四个仪表并排自适应；守护服务增加 WiFi 锁与省电白名单、后台运行放开。",
   "pubDate": "2026-11-17"
 }
