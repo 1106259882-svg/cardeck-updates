@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 15,
-  "versionName": "1.2.3",
-  "url": "https://aka.doubaocdn.com/s/CeIfJcxr10",
-  "sha256": "961fb403cf46c58c505890e45d7a772b9f59dbe7427a6f195a12b7d24d806b9d",
+  "versionCode": 16,
+  "versionName": "1.2.4",
+  "url": "https://aka.doubaocdn.com/s/TfUZRPawVs",
+  "sha256": "ab67d8be8c2695ce9fdd4df8400bfba2aa04ba547d76711e9abdcefdcf5fdd36",
   "size": 57853,
-  "note": "修复启动即崩溃：Root 检测原本在构造函数里同步执行 su（最长可阻塞二十多秒），启动自动连外网时卡死主线程被判无响应；现改为后台线程检测并带 60 秒缓存，重连不再重复跑 su。",
+  "note": "上线消息新增重连次数、最近一次断线原因（异常类型与原文）、运行秒数，便于远程定位通道反复重连的根因；断线日志也改为显示异常类型。",
   "pubDate": "2026-11-17"
 }
