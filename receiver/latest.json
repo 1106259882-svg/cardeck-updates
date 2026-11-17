@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 31,
-  "versionName": "1.3.9",
-  "url": "https://aka.doubaocdn.com/s/4qDgAJfc9O",
-  "sha256": "a5cb867250d402c4e8c1276a2f57d9a2c2ee7bae82b07346205124183861ad43",
+  "versionCode": 32,
+  "versionName": "1.4.0",
+  "url": "https://aka.doubaocdn.com/s/1v4AjCGDA2",
+  "sha256": "7ecd5e8e64e347ef82bf28628d37866d6c372b7c370c7f58009446756669ef2d",
   "size": 61949,
-  "note": "修复 1.3.8 两处问题：右上角状态被版本号覆盖（改为每 5 秒刷新真实连接状态）；安装命令只读 stdout 漏掉 stderr 导致失败原因丢失（现已 2>&1 捕获，并补界面空指针防护）。",
+  "note": "右上角改为独立运行状态行（文字+在线秒数，不靠颜色）：外网 在线 · 3分12秒 / 外网 连接中 / 外网 已停止。启动改为分步容错，任何一步失败只记录不崩进程；覆盖安装后只要上次没启动完成，本次自动进安全模式。",
   "pubDate": "2026-11-17"
 }
