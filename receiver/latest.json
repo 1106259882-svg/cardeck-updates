@@ -1,11 +1,11 @@
 {
   "app": "车机副屏",
   "package": "com.cardeck.receiver",
-  "versionCode": 9,
-  "versionName": "1.1.7",
-  "url": "https://aka.doubaocdn.com/s/Wvi0Fq3OeZ",
-  "sha256": "2376c433a5c79d5b5db7760edd0aaf4e795bd4e2b0f9d8e655662eb30658ee7d",
+  "versionCode": 10,
+  "versionName": "1.1.8",
+  "url": "https://aka.doubaocdn.com/s/2dSYkLt0zU",
+  "sha256": "5c07b118c2348df33c289fc9356fc191c55ce3c37cfd55bf65f77c46490efc8a",
   "size": 57853,
-  "note": "修复心跳事件导致的消息解析异常；日志兜底净化，自动剥离 JSON 报文和英文标签并转中文；Root 检测改为多路径+直接调用 su 验证，授权成功后立即显示已授权。",
+  "note": "关键修复：MQTT 命令报文解析从固定偏移改为按主题长度定位，远程命令现在能正常收到并回传结果；单条异常命令不再导致整条通道重连；收到格式异常命令只记录中文提示。",
   "pubDate": "2026-11-17"
 }
